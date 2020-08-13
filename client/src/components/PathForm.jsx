@@ -19,6 +19,7 @@ class PathForm extends React.Component {
   }
 
   handleSubmit(e) {
+    console.log("submitting");
     const { value } = this.state;
     const { pathConvert } = this.props;
     pathConvert(value);
